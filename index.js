@@ -191,9 +191,7 @@ class Student extends Lambdasian {
   }
 
   listSubjects() {
-    console.log(this.favSubjects.toString());
-
-    `My favorite subjects are ${this.favSubjects.toString()}`
+    return `My favorite subjects are ${this.favSubjects.toString()}`
   }
   PRAssignment(subject) {
 
